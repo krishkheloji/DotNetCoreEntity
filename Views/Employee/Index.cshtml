@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<EmpDTO>
+
+<a class="btn btn-info" asp-action="AddEmp">Add Emp</a>
+<br />
+<br />
+
+<table class="table" id="mytable">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salary</th>
+            <th scope="col">Manager</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+            <tr>
+                <th scope="row">@d.eid</th>
+                <td>@d.ename</td>
+                <td>@d.esalary</td>
+                <td>@d.mname</td>
+            </tr>
+        }
+
+
+    </tbody>
+</table>
+
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            new DataTable('#mytable');
+        });
+    </script>
+}

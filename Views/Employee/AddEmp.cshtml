@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model EmpDTOAdd
+
+<form method="post">
+    Name <input type="text" class="form-control" asp-for="ename"/><br />
+    Salary <input type="text" class="form-control" asp-for="esalary" /><br />
+    Manager 
+    <select class="form-control" asp-for="mid" asp-items="@ViewBag.manager">
+    </select><br />
+
+    <input type="submit" value="Add" class="btn btn-primary"/>
+</form>

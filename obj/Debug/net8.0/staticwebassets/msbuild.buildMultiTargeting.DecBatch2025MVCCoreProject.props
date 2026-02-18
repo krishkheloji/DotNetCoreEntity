@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\DecBatch2025MVCCoreProject.props" />
+</Project>

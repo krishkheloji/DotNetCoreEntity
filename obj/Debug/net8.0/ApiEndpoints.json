@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "AddEmp",
+    "RelativePath": "api/EmpHandler/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DecBatch2025MVCCoreProject.DTO.EmpDTOAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "DeleteEmpById",
+    "RelativePath": "api/EmpHandler/DelEmp/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "GetEmp",
+    "RelativePath": "api/EmpHandler/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "getEmpById",
+    "RelativePath": "api/EmpHandler/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "FetchAllManagers",
+    "RelativePath": "api/EmpHandler/getManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "doLogin",
+    "RelativePath": "api/EmpHandler/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "DecBatch2025MVCCoreProject.DTO.AccountDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.EmpHandlerController",
+    "Method": "UpdateEmp",
+    "RelativePath": "api/EmpHandler/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "DecBatch2025MVCCoreProject.DTO.EmpDTOAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.SPController",
+    "Method": "AddManager",
+    "RelativePath": "api/SP/AddManager",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "DecBatch2025MVCCoreProject.DTO.ManagerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DecBatch2025MVCCoreProject.Controllers.SPController",
+    "Method": "Fetchmanagers",
+    "RelativePath": "api/SP/FetchManager",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
